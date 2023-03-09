@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <section className="about">
+      <section className="about" id="About">
         <h4 className="about__text">About Me</h4>
         <p>
           <span className=" font-weight-bold">DOGGED DESIGNS</span> is the name

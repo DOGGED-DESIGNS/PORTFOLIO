@@ -1,5 +1,5 @@
 export const Data = {
-  nav: ["Projects", "Testimonials", "About"],
+  nav: ["Projects", "Technologies", "About"],
   projects: [
     {
       name: "ADMIN PANEL",

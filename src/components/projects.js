@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 const Project = () => {
   return (
     <>
-      <section class="project">
+      <section class="project" id="Projects">
         <h3 class="project__text">projects</h3>
         <div class="row mt-5 justify-content-center">
           {Data.projects.map((pro) => {

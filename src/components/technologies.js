@@ -1,7 +1,7 @@
 const Tecnologies = () => {
   return (
     <>
-      <section className="technologies">
+      <section className="technologies" id="Technologies">
         <h4 className="technologies__text">technologies</h4>
         <p>
           I’ve worked with a range of technologies in the web development world
