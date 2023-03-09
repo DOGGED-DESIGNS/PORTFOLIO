@@ -96,7 +96,7 @@ const Nav = () => {
                     className={index === indexz ? "active-link" : ""}
                     key={index}
                   >
-                    <a href="#">{na}</a>
+                    <a href={`#${na}`}>{na}</a>
                   </li>
                 );
               })}
