@@ -2,7 +2,13 @@ import { useEffect, useState } from "react";
 
 import { IconButton } from "@mui/material";
 
-import { FacebookOutlined, GitHub, Twitter } from "@mui/icons-material";
+import {
+  FacebookOutlined,
+  GitHub,
+  Instagram,
+  LinkedIn,
+  Twitter,
+} from "@mui/icons-material";
 
 import { Data } from "../data";
 
@@ -51,22 +57,43 @@ const Nav = () => {
               })}
             </ul>
             <div className="nav__trans--div">
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://web.facebook.com/profile.php?id=100083415037542"
+              >
                 <IconButton>
                   {" "}
                   <FacebookOutlined sx={{ color: "white" }} />{" "}
                 </IconButton>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://github.com/DOGGED-DESIGNS/">
                 <IconButton>
                   {" "}
                   <GitHub sx={{ color: "white" }} />{" "}
                 </IconButton>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://twitter.com/Dogged_Tech">
                 <IconButton>
                   {" "}
                   <Twitter sx={{ color: "white" }} />{" "}
+                </IconButton>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/dogged_designs/"
+              >
+                <IconButton>
+                  {" "}
+                  <Instagram sx={{ color: "white" }} />{" "}
+                </IconButton>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/uzoechi-jerry-16b872240/"
+              >
+                <IconButton>
+                  {" "}
+                  <LinkedIn sx={{ color: "white" }} />{" "}
                 </IconButton>
               </a>
             </div>
@@ -102,22 +129,43 @@ const Nav = () => {
               })}
             </ul>
             <div className="nav__trans--div">
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://web.facebook.com/profile.php?id=100083415037542"
+              >
                 <IconButton>
                   {" "}
                   <FacebookOutlined />{" "}
                 </IconButton>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://github.com/DOGGED-DESIGNS/">
                 <IconButton>
                   {" "}
                   <GitHub />{" "}
                 </IconButton>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://twitter.com/Dogged_Tech">
                 <IconButton>
                   {" "}
                   <Twitter />{" "}
+                </IconButton>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/dogged_designs/"
+              >
+                <IconButton>
+                  {" "}
+                  <Instagram />{" "}
+                </IconButton>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7098523738731651072/"
+              >
+                <IconButton>
+                  {" "}
+                  <LinkedIn />{" "}
                 </IconButton>
               </a>
             </div>

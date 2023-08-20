@@ -21,7 +21,7 @@ const Project = () => {
                   <h3 className="text-white font-weight-bolder text-capitalize text-center">
                     stack
                   </h3>
-                  <div className="px-3 mb-4 d-flex justify-content-between">
+                  <div className="px-3 mb-4 d-flex flex-wrap justify-content-between">
                     {pro.stack.map((st) => {
                       return (
                         <h6 className="text-secondary text-capitalize">{st}</h6>
@@ -30,10 +30,10 @@ const Project = () => {
                   </div>
 
                   <div className="code-btn">
-                    <a href={pro.code} className="btn2">
+                    <a href={pro.code} className="btn2" target="_blank">
                       code
                     </a>
-                    <a className="btn2" href={pro.visit}>
+                    <a className="btn2" href={pro.visit} target="_blank">
                       visit
                     </a>
                   </div>

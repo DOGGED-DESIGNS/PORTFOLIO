@@ -10458,11 +10458,13 @@ a.text-dark:focus {
   }
 }
 .personal__gif {
-  width: 500px;
+  max-width: 500px;
   max-height: 500px;
+  overflow: hidden;
 }
 .personal__gif > img {
   width: 100%;
+  overflow: hidden;
 }
 .btn1 {
   padding: 12px 19px;
