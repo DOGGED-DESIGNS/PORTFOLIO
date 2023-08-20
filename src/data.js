@@ -27,7 +27,7 @@ export const Data = {
       name: "RELATIONSHIP BLOG",
       img: "./img/port3.png",
       code: `https://github.com/DOGGED-DESIGNS/womenlove`,
-      visit: `womenlove.vercel.app`,
+      visit: `https://womenlove.vercel.app/`,
 
       stack: ["Next.js", "Node.js", "Api", "mongodb", "jquery"],
       des: `
